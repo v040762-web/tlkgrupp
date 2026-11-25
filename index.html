@@ -40,7 +40,7 @@
     </div>
     <div class="s-hero__widget" id="widget"><form class="s-widget" data-s-calc data-base="0" data-min="0" data-min-note="минимальный заказ" data-per="{&quot;car&quot;:&quot;km&quot;}" data-message="Здравствуйте! Хочу рассчитать перевозку: {выбор}. Предварительно {итого}. Когда сможете подать машину?" onsubmit="return false">
       <h2 class="s-widget__title">Стоимость перевозки</h2>
-      <fieldset><legend>Машина</legend><div class="s-chips s-chips--col"><label class="s-chip s-chip--row"><input type="radio" name="car" value="0" data-label="Тент 1.5 т" data-price="15"><span>Тент 1.5 т</span><b>15 ₽<small>/₽/км</small></b></label><label class="s-chip s-chip--row"><input type="radio" name="car" value="1" data-label="Тент 3 т" data-price="25" checked><span>Тент 3 т</span><b>25 ₽<small>/₽/км</small></b></label><label class="s-chip s-chip--row"><input type="radio" name="car" value="2" data-label="Тент 5 т" data-price="35"><span>Тент 5 т</span><b>35 ₽<small>/₽/км</small></b></label><label class="s-chip s-chip--row"><input type="radio" name="car" value="3" data-label="Изотерм" data-price="40"><span>Изотерм</span><b>40 ₽<small>/₽/км</small></b></label><label class="s-chip s-chip--row"><input type="radio" name="car" value="4" data-label="Опасный груз" data-price="45"><span>Опасный груз</span><b>45 ₽<small>/₽/км</small></b></label></div></fieldset>
+      <fieldset><legend>Машина</legend><div class="s-chips s-chips--col"><label class="s-chip s-chip--row"><input type="radio" name="car" value="0" data-label="Тент 1.5 т" data-price="15"><span>Тент 1.5 т</span><b>15 ₽<small>/км</small></b></label><label class="s-chip s-chip--row"><input type="radio" name="car" value="1" data-label="Тент 3 т" data-price="25" checked><span>Тент 3 т</span><b>25 ₽<small>/км</small></b></label><label class="s-chip s-chip--row"><input type="radio" name="car" value="2" data-label="Тент 5 т" data-price="35"><span>Тент 5 т</span><b>35 ₽<small>/км</small></b></label><label class="s-chip s-chip--row"><input type="radio" name="car" value="3" data-label="Изотерм" data-price="40"><span>Изотерм</span><b>40 ₽<small>/км</small></b></label><label class="s-chip s-chip--row"><input type="radio" name="car" value="4" data-label="Опасный груз" data-price="45"><span>Опасный груз</span><b>45 ₽<small>/км</small></b></label></div></fieldset>
       <div class="s-range"><label for="f-km"><span>Километраж маршрута</span><b><output data-s-out="km">100</output> км</b></label>
       <input id="f-km" type="range" name="km" min="10" max="3000" step="1" value="100" data-price="0" data-label="маршрут" data-unit="км" data-say="маршрут {v} км"></div>
       <p class="s-total"><span>Предварительно</span><b data-s-total>–</b></p>
@@ -67,16 +67,16 @@
     <div class="s-board"><div class="s-board__group">
       <h3 class="s-board__title">Тентованные фургоны</h3>
       <ul class="s-board__list">
-        <li class="s-board__row"><span class="s-board__name">Перевозка до 1.5 т<em>тентованный фургон</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">15 ₽<small> ₽/км</small></span></li>
-        <li class="s-board__row"><span class="s-board__name">Перевозка до 3 т<em>тентованный фургон</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">25 ₽<small> ₽/км</small></span></li>
-        <li class="s-board__row"><span class="s-board__name">Перевозка до 5 т<em>тентованный фургон</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">35 ₽<small> ₽/км</small></span></li>
+        <li class="s-board__row"><span class="s-board__name">Перевозка до 1.5 т<em>тентованный фургон</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">15 ₽<small> за км</small></span></li>
+        <li class="s-board__row"><span class="s-board__name">Перевозка до 3 т<em>тентованный фургон</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">25 ₽<small> за км</small></span></li>
+        <li class="s-board__row"><span class="s-board__name">Перевозка до 5 т<em>тентованный фургон</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">35 ₽<small> за км</small></span></li>
       </ul>
     </div>
 <div class="s-board__group">
       <h3 class="s-board__title">Специальные режимы</h3>
       <ul class="s-board__list">
-        <li class="s-board__row"><span class="s-board__name">Изотерм<em>изотермический фургон</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">40 ₽<small> ₽/км</small></span></li>
-        <li class="s-board__row"><span class="s-board__name">Опасные грузы<em>все классы опасности</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">45 ₽<small> ₽/км</small></span></li>
+        <li class="s-board__row"><span class="s-board__name">Изотерм<em>изотермический фургон</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">40 ₽<small> за км</small></span></li>
+        <li class="s-board__row"><span class="s-board__name">Опасные грузы<em>все классы опасности</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">45 ₽<small> за км</small></span></li>
       </ul>
     </div></div>
     <p class="s-note">Тарифы со страницы прайса на Яндекс.Картах – точную ставку подтвердим при заявке. База – Тверь.</p>
